@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "ass-addon",
+  "version": "${version}",
+  "name": "ass-addon",
+  "description": "Meteor Client addon: chunk finders, base ESP, deep block notifier, auto tool.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": { "meteor": ["com.assaddon.AssAddon"] },
+  "depends": { "meteor-client": "*" }
+}
